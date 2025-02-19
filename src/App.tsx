@@ -3,11 +3,10 @@ import './scss/app.scss';
 import Home from './pages/Home';
 import MainLayout from './layouts/MainLayout';
 import React, { Suspense } from 'react';
-import loadable from '@loadable/component';
 const Cart = React.lazy(
   () => import(/* webpackChunkName: 'Cart' */ './pages/Cart')
 );
-const NotFound = loadable(
+const NotFound = React.lazy(
   () => import(/* webpackChunkName: 'NotFound'*/ './pages/NotFound')
 );
 const FullPizza = React.lazy(

@@ -3,13 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@loadable/component": "^5.16.4",
     "@reduxjs/toolkit": "^2.5.1",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^14.6.1",
     "@types/jest": "^29.5.14",
-    "@types/loadable__component": "^5.13.9",
     "@types/node": "^22.13.2",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
